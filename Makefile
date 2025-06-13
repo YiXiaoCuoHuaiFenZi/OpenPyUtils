@@ -5,7 +5,7 @@ install-dev:
 	pip install -e ".[dev]"
 
 freeze:
-	CUSTOM_COMPILE_COMMAND="make freeze" pip-compile --no-emit-index-url --output-file requirements.txt setup.py
+	CUSTOM_COMPILE_COMMAND="make freeze" pip-compile --no-emit-index-url --output-file requirements.txt pyproject.toml
 
 unit:
 	py.test -W ignore::DeprecationWarning
