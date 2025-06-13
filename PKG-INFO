@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: openpyutils
+Version: 0.0.4
+Summary: colorful printer
+Home-page: https://github.com/YiXiaoCuoHuaiFenZi/OpenPyUtils
+Author: YiXiaoCuoHuaiFenZi
+Author-email: 249664317@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/YiXiaoCuoHuaiFenZi/OpenPyUtils/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# logger
+This is local colorful log printer. It prints colorful message for different log level.
+
+## Usage:
+```python
+from openpyutils import logger
+
+logger.info("This is a info message")
+logger.suc("This is a successful message")
+logger.warn("This is a warning message")
+logger.err("This is a error message")
+logger.fatal("This is a fatal error message")
+```
+
